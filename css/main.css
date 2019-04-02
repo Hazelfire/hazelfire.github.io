@@ -1,0 +1,63 @@
+/* 
+ * This theme was created for the RMIT Programming Club to use in a Web Programming workshop. 
+ * simpleProfile Template by Patrick Mifsud
+ */
+ 
+ 
+html {
+  background-color: lightgrey;
+}
+
+body {
+    /* Fonts listed in font family are system defualts for macOS, iOS, Android, Ubuntu, etc */
+    font-family:  -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, sans-serif;
+    text-align: center; /* alternatively you can use left, right or justify */
+    margin: 2% 15%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+h1 {
+	color: #003B6F;
+	text-decoration: underline;
+}
+
+a {
+    color:  #E60028;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+
+#location {
+	color: #373940;
+	font-size: 19px;
+}
+
+#profile-img {
+	border-radius: 50%; /* This creates a circle image, lower the radius to get a Squircle */
+}
+
+#tagline {
+	color: #373940;
+}
+
+#content {
+	text-align: left !important;
+}
+
+#profile-social-icons .fab, .fa {
+	/* !important Overrides existing internal or external CSS */
+	font-size: 26px !important; 
+	color: #373940;
+	padding-bottom: 15px;
+}
+
+footer {
+	padding: 5px 0;
+	border-top: 1px dotted #373940;
+}
