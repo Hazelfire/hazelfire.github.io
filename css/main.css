@@ -58,6 +58,10 @@ a:hover {
   padding-bottom: 15px;
 }
 
+.center {
+  text-align: center;
+}
+
 .technology {
   width: 100px;
   height: 100px;
