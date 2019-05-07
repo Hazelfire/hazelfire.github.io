@@ -72,6 +72,7 @@ myTechnologies =
     , Technology "Haskell" "https://www.haskell.org/" "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Haskell-Logo.svg/1200px-Haskell-Logo.svg.png"
     , Technology "Graphene" "https://graphene-python.org/" "https://avatars0.githubusercontent.com/u/15002022?s=400&v=4"
     , Technology "Rust" "https://www.rust-lang.org/" "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png"
+    , Technology "JQuery" "https://jquery.com/" "https://i.pinimg.com/originals/c0/26/1a/c0261af0418d8ad72fdd8a7f4379d7db.png"
     ]
 
 
