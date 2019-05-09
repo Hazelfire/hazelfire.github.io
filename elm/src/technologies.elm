@@ -4,7 +4,7 @@ import Browser
 import Html exposing (Html, button, div, img, text, a)
 import Html.Events exposing (onClick)
 import Html.Attributes exposing (target, href, src, class, alt)
-import List exposing (map)
+import List exposing (map, sortBy)
 
 
 main =
@@ -73,6 +73,8 @@ myTechnologies =
     , Technology "Graphene" "https://graphene-python.org/" "https://avatars0.githubusercontent.com/u/15002022?s=400&v=4"
     , Technology "Rust" "https://www.rust-lang.org/" "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png"
     , Technology "JQuery" "https://jquery.com/" "https://i.pinimg.com/originals/c0/26/1a/c0261af0418d8ad72fdd8a7f4379d7db.png"
+    , Technology "App Sync" "https://aws.amazon.com/en/appsync/" "https://media.graphcms.com/jN6lJfSgCNnGe6H5QGgS"
+    , Technology "Helm" "https://augmentedfifth.github.io/helm/" "https://augmentedfifth.github.io/helm/img/logo.svg"
     ]
 
 
@@ -80,7 +82,7 @@ type alias Model = List Technology
 
 
 init : Model
-init = myTechnologies
+init = sortBy .name myTechnologies
 
 update : Msg -> Model -> Model
 update msg model = model
