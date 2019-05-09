@@ -4447,9 +4447,18 @@ var author$project$Main$myTechnologies = _List_fromArray(
 		A3(author$project$Main$Technology, 'Elm', 'https://elm-lang.org/', 'https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/397/full/elm.png'),
 		A3(author$project$Main$Technology, 'Haskell', 'https://www.haskell.org/', 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Haskell-Logo.svg/1200px-Haskell-Logo.svg.png'),
 		A3(author$project$Main$Technology, 'Graphene', 'https://graphene-python.org/', 'https://avatars0.githubusercontent.com/u/15002022?s=400&v=4'),
-		A3(author$project$Main$Technology, 'Rust', 'https://www.rust-lang.org/', 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png')
+		A3(author$project$Main$Technology, 'Rust', 'https://www.rust-lang.org/', 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png'),
+		A3(author$project$Main$Technology, 'JQuery', 'https://jquery.com/', 'https://i.pinimg.com/originals/c0/26/1a/c0261af0418d8ad72fdd8a7f4379d7db.png'),
+		A3(author$project$Main$Technology, 'App Sync', 'https://aws.amazon.com/en/appsync/', 'https://media.graphcms.com/jN6lJfSgCNnGe6H5QGgS'),
+		A3(author$project$Main$Technology, 'Helm', 'https://augmentedfifth.github.io/helm/', 'https://augmentedfifth.github.io/helm/img/logo.svg')
 	]);
-var author$project$Main$init = author$project$Main$myTechnologies;
+var elm$core$List$sortBy = _List_sortBy;
+var author$project$Main$init = A2(
+	elm$core$List$sortBy,
+	function ($) {
+		return $.name;
+	},
+	author$project$Main$myTechnologies);
 var author$project$Main$update = F2(
 	function (msg, model) {
 		return model;
