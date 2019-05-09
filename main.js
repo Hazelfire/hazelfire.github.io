@@ -4450,7 +4450,8 @@ var author$project$Main$myTechnologies = _List_fromArray(
 		A3(author$project$Main$Technology, 'Rust', 'https://www.rust-lang.org/', 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png'),
 		A3(author$project$Main$Technology, 'JQuery', 'https://jquery.com/', 'https://i.pinimg.com/originals/c0/26/1a/c0261af0418d8ad72fdd8a7f4379d7db.png'),
 		A3(author$project$Main$Technology, 'App Sync', 'https://aws.amazon.com/en/appsync/', 'https://media.graphcms.com/jN6lJfSgCNnGe6H5QGgS'),
-		A3(author$project$Main$Technology, 'Helm', 'https://augmentedfifth.github.io/helm/', 'https://augmentedfifth.github.io/helm/img/logo.svg')
+		A3(author$project$Main$Technology, 'Helm', 'https://augmentedfifth.github.io/helm/', 'https://augmentedfifth.github.io/helm/img/logo.svg'),
+		A3(author$project$Main$Technology, 'Love2D', 'https://love2d.org', 'https://avatars2.githubusercontent.com/u/17165675?s=400&v=4')
 	]);
 var elm$core$List$sortBy = _List_sortBy;
 var author$project$Main$init = A2(
