@@ -76,6 +76,8 @@ myTechnologies =
     , Technology "App Sync" "https://aws.amazon.com/en/appsync/" "https://media.graphcms.com/jN6lJfSgCNnGe6H5QGgS"
     , Technology "Helm" "https://augmentedfifth.github.io/helm/" "https://augmentedfifth.github.io/helm/img/logo.svg"
     , Technology "Love2D" "https://love2d.org" "https://avatars2.githubusercontent.com/u/17165675?s=400&v=4"
+    , Technology "Styled components" "https://www.styled-components.com/" "https://www.styled-components.com/static/logo.png"
+    , Technology "React Router" "https://reacttraining.com/react-router/" "https://camo.githubusercontent.com/f63754b8412368e820601967af6dea84312b925b/68747470733a2f2f7265616374747261696e696e672e636f6d2f72656163742d726f757465722f616e64726f69642d6368726f6d652d313434783134342e706e67"
     ]
 
 
