@@ -73,11 +73,14 @@ myTechnologies =
     , Technology "Graphene" "https://graphene-python.org/" "https://avatars0.githubusercontent.com/u/15002022?s=400&v=4"
     , Technology "Rust" "https://www.rust-lang.org/" "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png"
     , Technology "JQuery" "https://jquery.com/" "https://i.pinimg.com/originals/c0/26/1a/c0261af0418d8ad72fdd8a7f4379d7db.png"
-    , Technology "App Sync" "https://aws.amazon.com/en/appsync/" "https://media.graphcms.com/jN6lJfSgCNnGe6H5QGgS"
+    , Technology "AppSync" "https://aws.amazon.com/en/appsync/" "https://media.graphcms.com/jN6lJfSgCNnGe6H5QGgS"
     , Technology "Helm" "https://augmentedfifth.github.io/helm/" "https://augmentedfifth.github.io/helm/img/logo.svg"
     , Technology "Love2D" "https://love2d.org" "https://avatars2.githubusercontent.com/u/17165675?s=400&v=4"
     , Technology "Styled components" "https://www.styled-components.com/" "https://www.styled-components.com/static/logo.png"
     , Technology "React Router" "https://reacttraining.com/react-router/" "https://camo.githubusercontent.com/f63754b8412368e820601967af6dea84312b925b/68747470733a2f2f7265616374747261696e696e672e636f6d2f72656163742d726f757465722f616e64726f69642d6368726f6d652d313434783134342e706e67"
+    , Technology "SQL Alchemy" "https://www.sqlalchemy.org/" "https://www.sqlalchemy.org/img/sqla_logo.png"
+    , Technology "Jinja" "http://jinja.pocoo.org/docs/2.10/" "http://jinja.pocoo.org/docs/2.10/_static/jinja-small.png"
+    , Technology "PlantUML" "http://plantuml.com/" "http://plantuml.com/logo3.png"
     ]
 
 
