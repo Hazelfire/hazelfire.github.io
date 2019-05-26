@@ -81,6 +81,8 @@ myTechnologies =
     , Technology "SQL Alchemy" "https://www.sqlalchemy.org/" "https://www.sqlalchemy.org/img/sqla_logo.png"
     , Technology "Jinja" "http://jinja.pocoo.org/docs/2.10/" "http://jinja.pocoo.org/docs/2.10/_static/jinja-small.png"
     , Technology "PlantUML" "http://plantuml.com/" "http://plantuml.com/logo3.png"
+    , Technology "Tmux" "https://github.com/tmux/tmux" "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tmux_logo.svg/1280px-Tmux_logo.svg.png"
+    , Technology "Click" "https://click.palletsprojects.com/en/7.x/" "https://click.palletsprojects.com/en/7.x/_images/click-logo.png"
     ]
 
 
